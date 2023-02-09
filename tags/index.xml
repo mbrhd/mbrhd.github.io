@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Mehdi&#39;s Blog</title>
+    <link>https://mbrhd.github.io/tags/</link>
+    <description>Recent content in Tags on Mehdi&#39;s Blog</description>
+    <image>
+      <title>Mehdi&#39;s Blog</title>
+      <url>https://mbrhd.github.io/papermod-cover.png</url>
+      <link>https://mbrhd.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Nov 2021 18:16:47 +0100</lastBuildDate><atom:link href="https://mbrhd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first</title>
+      <link>https://mbrhd.github.io/tags/first/</link>
+      <pubDate>Tue, 23 Nov 2021 18:16:47 +0100</pubDate>
+      
+      <guid>https://mbrhd.github.io/tags/first/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
