@@ -62,12 +62,12 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
 yank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mbrhd.github.io/posts/macos_tricks_tips/" />
-<meta property="og:image" content="https://mbrhd.github.io/images/macos_terminal" /><meta property="article:section" content="posts" />
+<meta property="og:image" content="https://mbrhd.github.io/macos_terminal.jpg" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-02-09T14:45:06+01:00" />
 <meta property="article:modified_time" content="2023-02-09T14:45:06+01:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://mbrhd.github.io/images/macos_terminal" />
+<meta name="twitter:image" content="https://mbrhd.github.io/macos_terminal.jpg" />
 <meta name="twitter:title" content="Cool cli commands for macos"/>
 <meta name="twitter:description" content="Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.
 yank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically."/>
@@ -103,10 +103,10 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
   "keywords": [
     
   ],
-  "articleBody": "Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.\nyank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.\ndocker ps | yank\nncdu simply brew install ncdu and you will never worry on what exacly to put after du command to know all the disk space used.\nncdu\nimagemagick You want to convert a .HEIC file into a png one? Simple brew install imagemagick magick mogrify -monitor -format png *.HEIC\ngnumeric and ssconvert you want to convert an xlsx file automatically to a csv file. Just run: ssconvert Book1.xlsx newfile.csv\nbat Bat is like cat but with code highlit. Simply brew install it and you’ll have it.\nWifi passowrds Get access to all your wifi passwords bu simply running: security find-generic-password -wa 'WIFI NAME'\nBonus! you can use security find-generic-password -wa 'WIFI NAME' | yank and you have it copied directly.\nGet a history of all your donwloads sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent' To delete your history, just run the same with delete instead of select\nwhois and dig Just like the website whois, you can query any website to get information about it. You can also use dig to dig into the dns of a website\nTracing the path to a website There is an amazing tool to see the path to a website. Just use: traceroute www.google.com\nToilet ! simply brew install toilet and you can everything to an ascii art. toilet blog\n",
+  "articleBody": "Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.\nyank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.\ndocker ps | yank ncdu simply brew install ncdu and you will never worry on what exacly to put after du command to know all the disk space used.\nncdu imagemagick You want to convert a .HEIC file into a png one? Simple\nbrew install imagemagick magick mogrify -monitor -format png *.HEIC gnumeric and ssconvert you want to convert an xlsx file automatically to a csv file. Just run:\nssconvert Book1.xlsx newfile.csv bat Bat is like cat but with code highlit. Simply brew install it and you’ll have it.\nWifi passowrds Get access to all your wifi passwords bu simply running:\nsecurity find-generic-password -wa 'WIFI NAME' Bonus! you can use\nsecurity find-generic-password -wa 'WIFI NAME' | yank and you have it copied directly.\nGet a history of all your donwloads sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent' To delete your history, just run the same with delete instead of select\nwhois and dig Just like the website whois, you can query any website to get information about it. You can also use dig to dig into the dns of a website\nTracing the path to a website There is an amazing tool to see the path to a website. Just use:\ntraceroute www.google.com Toilet ! simply brew install toilet and you can everything to an ascii art. toilet blog\n",
   "wordCount" : "301",
   "inLanguage": "en",
-  "image":"https://mbrhd.github.io/images/macos_terminal","datePublished": "2023-02-09T14:45:06+01:00",
+  "image":"https://mbrhd.github.io/macos_terminal.jpg","datePublished": "2023-02-09T14:45:06+01:00",
   "dateModified": "2023-02-09T14:45:06+01:00",
   "author":[{
     "@type": "Person",
@@ -203,7 +203,7 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
 
 </div>
   </header> 
-<figure class="entry-cover"><img loading="lazy" src="https://mbrhd.github.io/images/macos_terminal" alt="macos terminal">
+<figure class="entry-cover"><img loading="lazy" src="https://mbrhd.github.io/macos_terminal.jpg" alt="macos terminal">
         <p>macos terminal</p>
 </figure><div class="toc">
     <details >
@@ -248,35 +248,35 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
 <h2 id="yank">yank<a hidden class="anchor" aria-hidden="true" href="#yank">#</a></h2>
 <p>yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output.
 For example, imagine you have a list of docker container running with complex names. Running <code>docker ps | yank</code> will allow you to capture the name of the docker container automatically.</p>
-<p><code>docker ps | yank</code></p>
-<h2 id="ncdu">ncdu<a hidden class="anchor" aria-hidden="true" href="#ncdu">#</a></h2>
+<pre tabindex="0"><code>docker ps | yank
+</code></pre><h2 id="ncdu">ncdu<a hidden class="anchor" aria-hidden="true" href="#ncdu">#</a></h2>
 <p>simply brew install ncdu and you will never worry on what exacly to put after <code>du</code> command to know all the disk space used.</p>
-<p><code>ncdu</code></p>
-<h2 id="imagemagick">imagemagick<a hidden class="anchor" aria-hidden="true" href="#imagemagick">#</a></h2>
-<p>You want to convert a .HEIC file into a png one? Simple
-<code>brew install imagemagick</code>
-<code>magick mogrify -monitor -format png *.HEIC</code></p>
-<h2 id="gnumeric-and-ssconvert">gnumeric and ssconvert<a hidden class="anchor" aria-hidden="true" href="#gnumeric-and-ssconvert">#</a></h2>
-<p>you want to convert an xlsx file automatically to a csv file. Just run:
-<code>ssconvert Book1.xlsx newfile.csv</code></p>
-<h2 id="bat">bat<a hidden class="anchor" aria-hidden="true" href="#bat">#</a></h2>
+<pre tabindex="0"><code>ncdu
+</code></pre><h2 id="imagemagick">imagemagick<a hidden class="anchor" aria-hidden="true" href="#imagemagick">#</a></h2>
+<p>You want to convert a .HEIC file into a png one? Simple</p>
+<pre tabindex="0"><code>brew install imagemagick
+magick mogrify -monitor -format png *.HEIC
+</code></pre><h2 id="gnumeric-and-ssconvert">gnumeric and ssconvert<a hidden class="anchor" aria-hidden="true" href="#gnumeric-and-ssconvert">#</a></h2>
+<p>you want to convert an xlsx file automatically to a csv file. Just run:</p>
+<pre tabindex="0"><code>ssconvert Book1.xlsx newfile.csv
+</code></pre><h2 id="bat">bat<a hidden class="anchor" aria-hidden="true" href="#bat">#</a></h2>
 <p>Bat is like cat but with code highlit. Simply brew install it and you&rsquo;ll have it.</p>
 <h2 id="wifi-passowrds">Wifi passowrds<a hidden class="anchor" aria-hidden="true" href="#wifi-passowrds">#</a></h2>
-<p>Get access to all your wifi passwords bu simply running:
-<code>security find-generic-password -wa 'WIFI NAME'</code></p>
-<p>Bonus! you can use
-<code>security find-generic-password -wa 'WIFI NAME' | yank</code>
-and you have it copied directly.</p>
+<p>Get access to all your wifi passwords bu simply running:</p>
+<pre tabindex="0"><code>security find-generic-password -wa &#39;WIFI NAME&#39;
+</code></pre><p>Bonus! you can use</p>
+<pre tabindex="0"><code>security find-generic-password -wa &#39;WIFI NAME&#39; | yank
+</code></pre><p>and you have it copied directly.</p>
 <h2 id="get-a-history-of-all-your-donwloads">Get a history of all your donwloads<a hidden class="anchor" aria-hidden="true" href="#get-a-history-of-all-your-donwloads">#</a></h2>
-<p><code>sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent'</code>
-To delete your history, just run the same with delete instead of select</p>
+<pre tabindex="0"><code>sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* &#39;select LSQuarantineDataURLString from LSQuarantineEvent&#39;
+</code></pre><p>To delete your history, just run the same with delete instead of select</p>
 <h2 id="whois-and-dig">whois and dig<a hidden class="anchor" aria-hidden="true" href="#whois-and-dig">#</a></h2>
 <p>Just like the website whois, you can query any website to get information about it.
 You can also use dig to dig into the dns of a website</p>
 <h2 id="tracing-the-path-to-a-website">Tracing the path to a website<a hidden class="anchor" aria-hidden="true" href="#tracing-the-path-to-a-website">#</a></h2>
-<p>There is an amazing tool to see the path to a website. Just use:
-<code>traceroute www.google.com</code></p>
-<h2 id="toilet-">Toilet !<a hidden class="anchor" aria-hidden="true" href="#toilet-">#</a></h2>
+<p>There is an amazing tool to see the path to a website. Just use:</p>
+<pre tabindex="0"><code>traceroute www.google.com
+</code></pre><h2 id="toilet-">Toilet !<a hidden class="anchor" aria-hidden="true" href="#toilet-">#</a></h2>
 <p>simply <code>brew install toilet</code> and you can everything to an ascii art.
 <code>toilet blog</code></p>
 
