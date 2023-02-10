@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mehdi&#39;s Blog</title>
-    <link>https://mbrhd.github.io/</link>
-    <description>Recent content on Mehdi&#39;s Blog</description>
+    <title>tech on Mehdi&#39;s Blog</title>
+    <link>https://mbrhd.github.io/categories/tech/</link>
+    <description>Recent content in tech on Mehdi&#39;s Blog</description>
     <image>
       <title>Mehdi&#39;s Blog</title>
       <url>https://mbrhd.github.io/papermod-cover.png</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Feb 2023 14:45:06 +0100</lastBuildDate><atom:link href="https://mbrhd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 14:45:06 +0100</lastBuildDate><atom:link href="https://mbrhd.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cool cli commands for macos</title>
       <link>https://mbrhd.github.io/posts/macos_tricks_tips/</link>
@@ -21,26 +21,6 @@
       <description>Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.
 yank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.</description>
     </item>
-    
-    <item>
-      <title>Primis</title>
-      <link>https://mbrhd.github.io/primis/</link>
-      <pubDate>Tue, 23 Nov 2021 18:16:47 +0100</pubDate>
-      
-      <guid>https://mbrhd.github.io/primis/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
-    <item>
-      <title>First_post</title>
-      <link>https://mbrhd.github.io/posts/first_post/</link>
-      <pubDate>Tue, 23 Nov 2021 17:23:07 +0100</pubDate>
-      
-      <guid>https://mbrhd.github.io/posts/first_post/</guid>
-      <description>Starting a blog, why not? Writing is the bestway to consolidate knowledge and keep track of progress. Here, I will share tricks, tips, second brain, thoughts, opinions&amp;hellip; who knows?</description>
-    </item>
-    
-    
     
   </channel>
 </rss>

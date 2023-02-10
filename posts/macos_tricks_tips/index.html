@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Cool cli commands for macos | Mehdi&#39;s Blog</title>
-<meta name="keywords" content="">
+<meta name="keywords" content="macos, cli">
 <meta name="description" content="Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.
 yank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.">
 <meta name="author" content="Me">
@@ -101,7 +101,7 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
   "name": "Cool cli commands for macos",
   "description": "Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.\nyank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.",
   "keywords": [
-    
+    "macos", "cli"
   ],
   "articleBody": "Cool CLI commands for macos This is a list of amazing cli tools that you can brew or are present by default.\nyank yank is the yank tool for your cli. To use it simply pipe it after a command and it will allow you to yank a string in the output. For example, imagine you have a list of docker container running with complex names. Running docker ps | yank will allow you to capture the name of the docker container automatically.\ndocker ps | yank ncdu simply brew install ncdu and you will never worry on what exacly to put after du command to know all the disk space used.\nncdu imagemagick You want to convert a .HEIC file into a png one? Simple\nbrew install imagemagick magick mogrify -monitor -format png *.HEIC gnumeric and ssconvert you want to convert an xlsx file automatically to a csv file. Just run:\nssconvert Book1.xlsx newfile.csv bat Bat is like cat but with code highlit. Simply brew install it and you’ll have it.\nWifi passowrds Get access to all your wifi passwords bu simply running:\nsecurity find-generic-password -wa 'WIFI NAME' Bonus! you can use\nsecurity find-generic-password -wa 'WIFI NAME' | yank and you have it copied directly.\nGet a history of all your donwloads sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent' To delete your history, just run the same with delete instead of select\nwhois and dig Just like the website whois, you can query any website to get information about it. You can also use dig to dig into the dns of a website\nTracing the path to a website There is an amazing tool to see the path to a website. Just use:\ntraceroute www.google.com ",
   "wordCount" : "285",
@@ -179,7 +179,7 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
                 </a>
             </li>
             <li>
-                <a href="https://mbrhd.github.io/search/" title="Search">
+                <a href="https://mbrhd.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
@@ -199,7 +199,7 @@ yank yank is the yank tool for your cli. To use it simply pipe it after a comman
     <h1 class="post-title">
       Cool cli commands for macos
     </h1>
-    <div class="post-meta"><span title='2023-02-09 14:45:06 +0100 CET'>February 9, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://github.com/mbrhd/blog/tree/547535bebc9f52880af9602d63702a7780fc19ad/mbrhd/content//posts/macos_tricks_tips.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2023-02-09 14:45:06 +0100 CET'>February 9, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://github.com/mbrhd/blog/tree/master/mbrhd/content/posts/posts/macos_tricks_tips.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
@@ -282,6 +282,8 @@ You can also use dig to dig into the dns of a website</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://mbrhd.github.io/tags/macos/">macos</a></li>
+      <li><a href="https://mbrhd.github.io/tags/cli/">cli</a></li>
     </ul>
 <nav class="paginav">
   <a class="next" href="https://mbrhd.github.io/posts/first_post/">
@@ -294,7 +296,7 @@ You can also use dig to dig into the dns of a website</p>
 
 <div class="share-buttons">
     <a target="_blank" rel="noopener noreferrer" aria-label="share Cool cli commands for macos on twitter"
-        href="https://twitter.com/intent/tweet/?text=Cool%20cli%20commands%20for%20macos&amp;url=https%3a%2f%2fmbrhd.github.io%2fposts%2fmacos_tricks_tips%2f&amp;hashtags=">
+        href="https://twitter.com/intent/tweet/?text=Cool%20cli%20commands%20for%20macos&amp;url=https%3a%2f%2fmbrhd.github.io%2fposts%2fmacos_tricks_tips%2f&amp;hashtags=macos%2ccli">
         <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
             <path
                 d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
